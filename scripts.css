@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200vh;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Add other styles as needed */
+
+.container {
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for contrast */
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); /* Enhanced 3D effect */
+}
+
+.passport-photo {
+    width: 200px;  
+    height: 200px; 
+    border-radius: 5%; 
+    object-fit: cover; 
+    border: 2px solid #000; 
+    background-color: #fff; 
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 10px;
+    width: 100%; /* Full width */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center nav links */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* Bold text for better visibility */
+}
+
+section {
+    padding: 20px;
+    max-width: 800px; /* Increased width for sections */
+    margin: auto;
+
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    margin-top: 0;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff; /* Ensure text color is visible */
+}
